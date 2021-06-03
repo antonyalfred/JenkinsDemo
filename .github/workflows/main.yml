@@ -32,4 +32,8 @@ jobs:
           echo "GITHUB_RUN_ID: ${GITHUB_RUN_ID}"
           echo "GITHUB_JOB: ${GITHUB_JOB}"
           echo "GITHUB_ACTION: ${GITHUB_ACTION}"
+          echo "GITHUB_ACTION: ${GITHUB_ACTION}"
+          echo ${{ github.run_id }}
+          echo ${{ github.run_number }}
+          
           
